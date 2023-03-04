@@ -5,7 +5,7 @@ echo "ATUALIZANDO O SERVIDOR..."
 apt-get update
 apt-get upgrade -y
 apt-get install apache2
-apt-get unzip -y
+apt-get install unzip -y
 
 echo "BAIXANDO E COPIANDO OS ARQUIVOS DA APLICAÇÃO..."
 
